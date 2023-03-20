@@ -28,6 +28,13 @@ import {
 import nccs from "../assets/nccs.png";
 import transviti from "../assets/transviti.jpg";
 import gdscLOGO from "../assets/gdscLOGO.png";
+import nextjs from "../assets/nextjs.png";
+import mui from "../assets/mui.png";
+import antd from "../assets/antd.png";
+import mantineUI from "../assets/mantineUI.png";
+import bootstraplogo from "../assets/bootstraplogo.png";
+import cpp_logo from "../assets/cpp_logo.png";
+import python from "../assets/python.png";
 
 export const navLinks = [
   {
@@ -65,12 +72,16 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "React JS",
+    icon: reactjs,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "JavaScript",
@@ -81,40 +92,52 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Node JS",
+    icon: nodejs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Material UI",
+    icon: mui,
   },
+  {
+    name: "Ant Design",
+    icon: antd,
+  },
+  {
+    name: "Mantine UI",
+    icon: mantineUI,
+  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Bootstrap",
+    icon: bootstraplogo,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "C++",
+    icon: cpp_logo,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 

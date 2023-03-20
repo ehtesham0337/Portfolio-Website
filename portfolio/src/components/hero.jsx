@@ -18,7 +18,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 sm:h-80 h-60 violet-gradient" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
@@ -30,23 +30,32 @@ const Hero = () => {
           </p>
           <div className="flex gap-4 items-center pt-4">
             <Link href="https://github.com/ehtesham0337" target="_blank">
-              <Image src={github} className="w-[80px] h-[80px]" />
+              <Image
+                src={github}
+                alt="github"
+                className="xs:w-[80px] xs:h-[80px] w-[50px] h-[50px]"
+              />
             </Link>
 
             <Link
               href="https://www.linkedin.com/in/syed-ehtesham/"
               target="_blank"
             >
-              <Image src={linkedin} className="w-[100px]" />
+              <Image
+                src={linkedin}
+                alt="linkedin"
+                className="xs:w-[100px] w-[65px]"
+              />
             </Link>
 
             <Link href="mailto:s.ehtesham.n@gmail.com" target="_blank">
               <Image
                 src={mail}
+                alt="mail"
+                className="xs:w-[90px] w-[60px]"
                 style={{
                   filter:
                     "invert(100%) sepia(0%) saturate(0%) hue-rotate(36deg) brightness(110%) contrast(100%)",
-                  width: "90px",
                 }}
               />
             </Link>
