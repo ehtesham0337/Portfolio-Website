@@ -25,6 +25,10 @@ import {
   threejs,
 } from "../assets";
 
+import nccs from "../assets/nccs.png";
+import transviti from "../assets/transviti.jpg";
+import gdscLOGO from "../assets/gdscLOGO.png";
+
 export const navLinks = [
   {
     id: "about",
@@ -116,55 +120,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Digital Forensics Intern",
+    company_name: "NCCS NED",
+    icon: nccs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analyzed malware samples statically & dynamically in an air-gapped VirtualBox network using IDA.",
+      "Retrieved data from a factory reset Android version 5.0 phone and wiped USB drives using Autopsy.",
+      "Documented safe security practices, setting up an isolated malware machine, identifying malicious emails, and preventing phishing attacks.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Software Developer Intern",
+    company_name: "Transviti",
+    icon: transviti,
+    iconBg: "#fff",
+    date: "September 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and delivered web applications using React.js, Redux and other UI related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Integrated REST APIs with the project frontend and ensured responsiveness and cross-browser compatibility.",
+      "Shipped various modern frontend features by writing clean, readable, and maintainable code.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "GDSC LEAD",
+    company_name: "Google Developer Student Clubs",
+    icon: gdscLOGO,
+    iconBg: "#fff",
+    date: "October 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Raised tech awareness in my university through events and workshops.",
+      "Organized talks and speaker sessions on modern technologies.",
+      "Collaborated with other leads to execute events and bootcamps.",
     ],
   },
 ];
