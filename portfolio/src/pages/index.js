@@ -12,6 +12,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect, useState } from "react";
 import Loader from "@/components/loader";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
+          <Footer />
         </div>
       </div>
 
