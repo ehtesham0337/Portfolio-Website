@@ -5,29 +5,31 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  // html,
+  // css,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // figma,
+  // docker,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  // threejs,
 } from "../assets";
 
+// company logos
 import nccs from "../assets/nccs.png";
 import transviti from "../assets/transviti.jpg";
 import gdscLOGO from "../assets/gdscLOGO.png";
+// tech logos
 import nextjs from "../assets/nextjs.png";
 import mui from "../assets/mui.png";
 import antd from "../assets/antd.png";
@@ -35,6 +37,11 @@ import mantineUI from "../assets/mantineUI.png";
 import bootstraplogo from "../assets/bootstraplogo.png";
 import cpp_logo from "../assets/cpp_logo.png";
 import python from "../assets/python.png";
+// project logos
+import codec from "../assets/codec.png";
+import weather from "../assets/weather.png";
+import gps from "../assets/gps.png";
+import mandelbrot from "../assets/mandelbrot.png";
 
 export const navLinks = [
   {
@@ -44,6 +51,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -76,7 +87,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -94,6 +105,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "Material UI",
@@ -122,10 +137,6 @@ const technologies = [
   {
     name: "Bootstrap",
     icon: bootstraplogo,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "C++",
@@ -210,67 +221,90 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Codec Support",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A ticket based support system where users can open a ticket describing their issue, add notes etc. When their issue is resolved, they can close the ticket.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Node.js (Express)",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: codec,
+    source_code_link: "https://github.com/ehtesham0337/Codec-Support",
+    live_link: "https://codec-support.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Country Weather",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An app that shows data like the capital, area, languages, and the weather of the country searched. The search bar filters and displays a list of searched countries.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "OpenWeatherAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/ehtesham0337/Country-Weather-Data",
+    live_link: "https://countryweatherdata.netlify.app",
   },
   {
-    name: "Trip Guide",
+    name: "GPS Attendance System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A GPS based attendance system for attendees and organizers of events and attendance can be opened for a certain time interval.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MantineUI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gps,
+    source_code_link: "https://github.com/ehtesham0337/GPS-Attendence-System",
+  },
+  {
+    name: "Mandelbrot Set Visualizer",
+    description:
+      "A graphical representation of Mandelbrot and Julia sets along with Iteration Orbits.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Windows Form",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mandelbrot,
+    source_code_link: "https://github.com/ehtesham0337/Drawing",
   },
 ];
 

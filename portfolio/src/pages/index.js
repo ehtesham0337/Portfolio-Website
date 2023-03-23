@@ -4,11 +4,14 @@ import Head from "next/head";
 import About from "@/components/about";
 import Experience from "@/components/experience";
 import Tech from "@/components/tech";
-import Works from "@/components/works";
-import Feedback from "@/components/feedback";
+import Projects from "@/components/projects";
 import Contact from "@/components/contact";
 import { StarsCanvas } from "@/components/canvas";
 import bg from "../assets/herobg.png";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useEffect, useState } from "react";
+import Loader from "@/components/loader";
 
 export default function Home() {
   return (
@@ -32,13 +35,14 @@ export default function Home() {
         <About />
         <Experience />
         <Tech />
-        <Works />
-        <Feedback />
+        <Projects />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
       </div>
+
+      <ToastContainer />
     </>
   );
 }

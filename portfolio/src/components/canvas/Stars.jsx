@@ -1,7 +1,8 @@
 import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
-//const random = require("maath/random/dist/maath-random.esm");
+import * as random from "maath/random";
+// const random = require("maath/random/dist/maath-random.esm");
 // "import random from ... syntax will generate Cannot use import statement outside module error "
 const Stars = (props) => {
   const ref = useRef();
@@ -32,14 +33,13 @@ const Stars = (props) => {
 const StarsCanvas = () => {
   return (
     <div className="w-full h-auto absolute inset-0 z-[-1]">
-      {/* <Canvas camera={{ position: [0, 0, 1] }}>
+      <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
 
         <Preload all />
-      </Canvas> */}
-      Stars
+      </Canvas>
     </div>
   );
 };

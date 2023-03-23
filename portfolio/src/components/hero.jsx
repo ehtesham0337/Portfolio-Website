@@ -24,10 +24,12 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Ehtesham</span>
           </h1>
+
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             A software engineer based in <br className="sm:block hidden" />
             Karachi, Pakistan
           </p>
+
           <div className="flex gap-4 items-center pt-4">
             <Link href="https://github.com/ehtesham0337" target="_blank">
               <Image
