@@ -21,7 +21,8 @@
     "react-parallax-tilt": "^1.7.117",
     "react-toastify": "^9.1.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.150.1"
+    "three": "^0.150.1",
+    "vercel": "^28.18.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
