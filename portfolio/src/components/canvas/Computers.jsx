@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import Loader from "../Loader";
+import CanvasLoader from "../loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("../../assets/scene.gltf");
@@ -53,7 +53,7 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<CanvasLoader />}>
       <Canvas
         frameloop="demand"
         shadows

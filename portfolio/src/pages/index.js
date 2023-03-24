@@ -10,8 +10,6 @@ import { StarsCanvas } from "@/components/canvas";
 import bg from "../assets/herobg.png";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useEffect, useState } from "react";
-import Loader from "@/components/loader";
 import Footer from "@/components/footer";
 
 export default function Home() {
