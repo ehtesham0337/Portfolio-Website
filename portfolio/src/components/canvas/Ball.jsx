@@ -9,6 +9,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
+import Image from "next/image";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
