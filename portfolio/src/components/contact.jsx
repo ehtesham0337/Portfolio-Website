@@ -56,7 +56,6 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
 
           toast.error("Looks like something went wrong. Please try again.");
         }
