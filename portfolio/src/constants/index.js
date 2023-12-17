@@ -5,8 +5,8 @@ import {
   web,
   javascript,
   typescript,
-  // html,
-  // css,
+  html,
+  css,
   reactjs,
   redux,
   tailwind,
@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   // figma,
-  // docker,
+  docker,
   // meta,
   // starbucks,
   // tesla,
@@ -33,8 +33,11 @@ import gdscLOGO from "../assets/gdscLOGO.png";
 import nextjs from "../assets/nextjs.png";
 import mui from "../assets/mui.png";
 import antd from "../assets/antd.png";
-import mantineUI from "../assets/mantineUI.png";
+import springboot from "../assets/tech/spring-boot.png";
+import PostgreSQL from "../assets/tech/PostgreSQL.svg";
 import bootstraplogo from "../assets/bootstraplogo.png";
+import firebase from "../assets/tech/firebase.png";
+import techwards from "../assets/tech/techwards.jpg";
 import cpp_logo from "../assets/cpp_logo.png";
 import python from "../assets/python.png";
 // project logos
@@ -83,6 +86,14 @@ const services = [
 
 const technologies = [
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -95,20 +106,24 @@ const technologies = [
     icon: nextjs,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Spring Boot",
+    icon: springboot,
+  },
+  {
+    name: "PostgreSQL",
+    icon: PostgreSQL,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Material UI",
@@ -189,6 +204,14 @@ const experiences = [
       "Organized talks and speaker sessions on modern technologies.",
       "Collaborated with other leads to execute events and bootcamps.",
     ],
+  },
+  {
+    title: "Software Engineering Intern",
+    company_name: "Techwards",
+    icon: techwards,
+    iconBg: "#fff",
+    date: "October 2023 - Present",
+    points: []
   },
 ];
 

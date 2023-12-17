@@ -51,12 +51,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software engineer with experience in React, Redux, NextJS,
-        JavaScript, TypeScript, Node.js, MaterialUI, Ant Design, MantineUI,
-        Bootstrap, Tailwind etc. I'm a quick learner who loves to explore new
+        I'm a skilled software engineer with experience in TypeScript, JavaScript, React, Redux,
+        NextJS, Node.js, Spring Boot, etc. I'm a quick learner who loves to explore new
         frameworks and technologies. All I need are the official docs and some
         time to get the brain juices flowing. I have industry experience in
-        developing modern, highly scalable web apps with REST API integrations,
+        developing modern, highly scalable web apps,
         delivering a variety of frontend features, and iterative UI/UX fixes
         based on client feedback. I'm currently learning backend development and
         other interests include cloud computing and cybersecurity.
